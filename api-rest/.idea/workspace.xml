@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc820e58-a221-4e62-ace7-6cca71256c70" name="Changes" comment=".">
+    <list default="true" id="dc820e58-a221-4e62-ace7-6cca71256c70" name="Changes" comment="creation of missing entities">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/controllers/AuthorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/controllers/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/controllers/BaseControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/apirest/controllers/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/controllers/AuthorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/apirest/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/controllers/PersonController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +128,7 @@
       <workItem from="1662122584213" duration="117000" />
       <workItem from="1662122714703" duration="1412000" />
       <workItem from="1662124267921" duration="131000" />
+      <workItem from="1662137787434" duration="2347000" />
     </task>
     <task id="LOCAL-00001" summary="structure of the api rest with entity Person.java">
       <created>1661980892578</created>
@@ -146,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661982335507</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="generation of generic controllers">
+      <created>1662129087357</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662129087357</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +191,9 @@
     <MESSAGE value="structure of the api rest with entity Person.java" />
     <MESSAGE value="correction of the 'pom.xml'" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="generation of generic controllers" />
+    <MESSAGE value="creation of missing entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation of missing entities" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
