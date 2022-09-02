@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc820e58-a221-4e62-ace7-6cca71256c70" name="Changes" comment="creation of missing entities">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/controllers/AuthorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/controllers/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/controllers/BaseControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Location.java" afterDir="false" />
+    <list default="true" id="dc820e58-a221-4e62-ace7-6cca71256c70" name="Changes" comment="persistence of &quot;Location&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +81,8 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.apirest.controllers" />
+      <recent name="com.example.apirest.services" />
+      <recent name="com.example.apirest.repositories" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -90,7 +90,7 @@
       <command value="ApiRestApplication" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ApiRestApplication">
+  <component name="RunManager" selected="Spring Boot.ApiRestApplication">
     <configuration name="ApiRestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.apirest.ApiRestApplication" />
       <module name="api-rest" />
@@ -128,7 +128,7 @@
       <workItem from="1662122584213" duration="117000" />
       <workItem from="1662122714703" duration="1412000" />
       <workItem from="1662124267921" duration="131000" />
-      <workItem from="1662137787434" duration="2347000" />
+      <workItem from="1662137787434" duration="3071000" />
     </task>
     <task id="LOCAL-00001" summary="structure of the api rest with entity Person.java">
       <created>1661980892578</created>
@@ -158,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662129087357</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="creation of missing entities">
+      <created>1662140888600</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662140888600</updated>
+    </task>
+    <task id="LOCAL-00006" summary="persistence of &quot;Location&quot;">
+      <created>1662141174377</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662141174377</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +207,8 @@
     <MESSAGE value="." />
     <MESSAGE value="generation of generic controllers" />
     <MESSAGE value="creation of missing entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation of missing entities" />
+    <MESSAGE value="persistence of &quot;Location&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="persistence of &quot;Location&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

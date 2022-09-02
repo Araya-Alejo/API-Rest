@@ -1,11 +1,10 @@
 package com.example.apirest.entities;
 
+import com.example.apirest.repositories.LocationRepository;
 import lombok.*;
 import org.hibernate.envers.Audited;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "address")
@@ -23,4 +22,7 @@ public class Address extends Base {
     @Column(name = "number")
     private int number;
 
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "fk_location")
+    private Location location;
 }

@@ -3,13 +3,16 @@ package com.example.apirest.entities;
 import lombok.*;
 import org.hibernate.envers.Audited;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "book")
-@AllArgsConstructor @NoArgsConstructor @Builder @Getter @Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@Getter
+@Setter
 @Audited
 public class Book extends Base {
 
@@ -25,4 +28,6 @@ public class Book extends Base {
     @Column(name = "title")
     private String title;
 
+    @ManyToMany(cascade = CascadeType.REFRESH)
+    private List<Author> authors;
 }
