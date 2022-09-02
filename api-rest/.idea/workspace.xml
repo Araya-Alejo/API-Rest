@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc820e58-a221-4e62-ace7-6cca71256c70" name="Changes" comment="persistence of &quot;Location&quot;">
+    <list default="true" id="dc820e58-a221-4e62-ace7-6cca71256c70" name="Changes" comment="relasionship for the persistence">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/apirest/controllers/BaseControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/controllers/BaseControllerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/apirest/services/LocationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/services/LocationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/apirest/services/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/apirest/services/PersonServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,11 +74,16 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/facultad/programacion III/API-Rest/api-rest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;8351382755e0a945e951805aecec5590&quot;
   }
@@ -128,7 +138,9 @@
       <workItem from="1662122584213" duration="117000" />
       <workItem from="1662122714703" duration="1412000" />
       <workItem from="1662124267921" duration="131000" />
-      <workItem from="1662137787434" duration="3071000" />
+      <workItem from="1662137787434" duration="4714000" />
+      <workItem from="1662145123298" duration="1382000" />
+      <workItem from="1662151752193" duration="2385000" />
     </task>
     <task id="LOCAL-00001" summary="structure of the api rest with entity Person.java">
       <created>1661980892578</created>
@@ -172,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662141174377</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="relasionship for the persistence">
+      <created>1662141629522</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662141629522</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +227,19 @@
     <MESSAGE value="generation of generic controllers" />
     <MESSAGE value="creation of missing entities" />
     <MESSAGE value="persistence of &quot;Location&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="persistence of &quot;Location&quot;" />
+    <MESSAGE value="relasionship for the persistence" />
+    <option name="LAST_COMMIT_MESSAGE" value="relasionship for the persistence" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/apirest/entities/Location.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

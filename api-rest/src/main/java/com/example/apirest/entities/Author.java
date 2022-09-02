@@ -8,13 +8,9 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Table( name = "autor" )
+@Table( name = "author" )
+@Getter @Setter @AllArgsConstructor @NoArgsConstructor
 @Audited
-@Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
-@Builder
 public class Author extends Base {
 
 	@Column(name = "name")

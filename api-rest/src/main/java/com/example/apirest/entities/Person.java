@@ -10,7 +10,7 @@ import java.util.List;
 
 @Entity
 @Table( name = "person" )
-@AllArgsConstructor @NoArgsConstructor @Builder @Getter @Setter
+@AllArgsConstructor @NoArgsConstructor @Getter @Setter
 @Audited
 public class Person extends Base {
 

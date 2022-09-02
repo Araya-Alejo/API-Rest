@@ -9,9 +9,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class PersonServiceImpl extends BaseServiceImpl<Person, Long> implements PersonService{
 
-	@Autowired
-	private PersonRepository personRepository;
-
 	public PersonServiceImpl ( BaseRepository<Person, Long> baseRepository ) {
 		super( baseRepository );
 	}

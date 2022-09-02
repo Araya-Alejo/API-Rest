@@ -11,7 +11,6 @@ import javax.persistence.Table;
 @Table(name = "location")
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @Getter
 @Setter
 @Audited

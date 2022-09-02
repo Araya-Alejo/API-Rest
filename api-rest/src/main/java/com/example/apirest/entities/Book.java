@@ -10,7 +10,6 @@ import java.util.List;
 @Table(name = "book")
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @Getter
 @Setter
 @Audited
