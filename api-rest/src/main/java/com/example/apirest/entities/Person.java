@@ -10,11 +10,7 @@ import java.io.Serializable;
 @Table( name = "person" )
 @AllArgsConstructor @NoArgsConstructor @Builder @Getter @Setter
 @Audited
-public class Person implements Serializable {
-
-	@Id
-	@GeneratedValue( strategy = GenerationType.IDENTITY )
-	private Long id;
+public class Person extends Base {
 
 	@Column( name = "first_name" )
 	private String first_name;
