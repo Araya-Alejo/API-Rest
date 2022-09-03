@@ -21,7 +21,7 @@ public class Address extends Base {
     @Column(name = "number")
     private int number;
 
-    @ManyToOne(optional = false)
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "fk_location")
     private Location location;
 }

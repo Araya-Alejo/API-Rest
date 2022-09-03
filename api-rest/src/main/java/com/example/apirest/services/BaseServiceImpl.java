@@ -1,7 +1,6 @@
 package com.example.apirest.services;
 
 import com.example.apirest.entities.Base;
-import com.example.apirest.entities.Person;
 import com.example.apirest.repositories.BaseRepository;
 
 import javax.transaction.Transactional;
@@ -53,10 +52,10 @@ public abstract class BaseServiceImpl<E extends Base, ID extends Serializable> i
 	@Transactional
 	public E update ( ID id , E entity ) throws Exception {
 		try {
-			Optional<E> entityOptional = baseRepository.findById( id );
-			E entityUpdate = entityOptional.get( );
-			entityUpdate = baseRepository.save( entity );
-			return entityUpdate;
+			//Optional<E> entityOptional = baseRepository.findById( id );
+			//E entityUpdate = entityOptional.get( );
+			// E entityUpdate = baseRepository.save( entity );
+			return baseRepository.save( entity );
 		} catch ( Exception e ) {
 			throw new Exception( e.getMessage( ) );
 		}
