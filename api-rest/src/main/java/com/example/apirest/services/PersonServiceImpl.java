@@ -4,6 +4,8 @@ import com.example.apirest.entities.Person;
 import com.example.apirest.repositories.BaseRepository;
 import com.example.apirest.repositories.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -23,6 +25,16 @@ public class PersonServiceImpl extends BaseServiceImpl<Person, Long> implements 
 		try{
 			//List<Person> persons = PersonRepository.search(filter);
 			return personRepository.search(filter);
+		}catch (Exception e){
+			throw new Exception(e.getMessage());
+		}
+	}
+
+	@Override
+	public Page<Person> search(String filter, Pageable pageable) throws Exception{
+		try{
+			//List<Person> persons = PersonRepository.search(filter);
+			return personRepository.search(filter, pageable);
 		}catch (Exception e){
 			throw new Exception(e.getMessage());
 		}
